@@ -1,0 +1,129 @@
+body{
+    background-image:url(background.jpg);
+    background-size: 100%;
+}
+H1{
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 40px;
+	margin: 10px 10px;
+}
+
+input{
+    box-sizing:border-box;
+	border-radius: 4px;
+}
+select{
+    box-sizing:border-box;
+    width: 100%;
+	border-radius: 4px;
+}
+.forma{
+	max-width: 850px;
+	background: rgba(223, 223, 223, 0.621);
+	padding: 20px;
+	margin: 20px auto;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #050505be;
+}
+ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+li{
+	display: block;
+	margin-bottom: 6px;
+	min-height: 35px;
+}
+.vnosnopolje{
+	box-sizing: border-box; 
+	padding: 8px;
+	outline: none;
+	border: 1px solid #32313a;
+
+}
+.vnosnopolje:focus{
+	box-shadow: 1px 1px 5px #424a4d;
+	border:1px solid rgb(248, 151, 40);
+}
+.polovica{
+	width: 49%;
+}
+.celota{
+	width: 100%;
+}
+.leva{
+	float:left;
+}
+.desna{
+	float:right;
+}
+
+.selectpolje{
+	box-sizing: border-box; 
+	padding: 8px;
+	outline: none;
+	border: 1px solid #32313a;
+	font-size: 12px;
+}
+.selectpolje:focus{
+	box-shadow: 1px 1px 5px #424a4d;
+	border:1px solid rgb(248, 134, 40);
+}
+p{
+	font: 20px Arial;
+}
+#naslov{
+	max-height: 120px;
+	margin: 3px auto;
+	border:1px #000000 solid;
+	border-radius: 5px;
+	background: linear-gradient(180deg, rgba(255,213,113,1) 0%, rgba(255,166,0,1) 100%);
+	box-shadow: 3px 3px 5px #383838;
+}
+#sbutton{
+	background: linear-gradient(180deg, rgba(255,213,113,1) 0%, rgba(255,166,0,1) 100%);
+	box-shadow: inset 0px 1px 0px 0px rgb(20, 0, 0);
+	border: 1px solid rgb(0, 0, 0);
+	display: inline-block;
+	cursor: pointer;
+	padding: 5px 14px;
+	text-decoration: none;
+	font: 20px Arial;
+	color: #FFFFFF;
+	width: 200px;
+	box-shadow: 3px 3px 5px #383838;
+	margin-top: 20px;
+	width: 160px;
+}
+.radio{
+	accent-color: rgb(255, 123, 0);
+	font-family: "Arial";
+	color: #000000;
+	padding-left: 2px;
+	margin-top: 2px;
+}
+.feetext{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 24px;
+	margin-top: 10px;
+	text-align: center;
+	border-bottom: 2px solid rgb(255, 142, 49);
+	width: 100%;
+	color: #FFFFFF;
+	padding-bottom: 3px;
+}
+#sCenter{
+	text-align: center;
+}
+.srr{
+	margin-bottom: 1px;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
